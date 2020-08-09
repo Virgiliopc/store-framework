@@ -2,8 +2,7 @@
   "store.home": {
     "blocks": [
       "rich-text",
-      "info-card#button-rignt",
-      "info-card#button-left"
+      "info-card#button-rignt"
     ]
   },
   "rich-text": {
