@@ -4,7 +4,8 @@
         "breadcrumb",
         "flex-layout.row#main",
         "product-price",
-        "flex-layout.row#product"        
+        "flex-layout.row#product",
+        "shelf.relatedProducts"       
       ]
   },
   "flex-layout.row#main": { 
@@ -24,7 +25,7 @@
   },
   "sku-selector": {
     "props": {
-      "showValueForVariation": "none"
+      "showValueForVariation": "image"
     }
   },
   "shelf.relatedProducts": {
