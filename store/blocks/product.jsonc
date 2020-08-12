@@ -23,7 +23,9 @@
   },
   "sku-selector": {
     "props": {
-      "showValueForVariation": "image"
+      "initialSelection": "empty",
+      "showValueForVariation": "image",
+      "showVariationsErrorMessage": true 
     }
   },
   "shelf.relatedProducts": {
