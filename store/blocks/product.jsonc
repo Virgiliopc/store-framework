@@ -4,8 +4,7 @@
         "breadcrumb",
         "flex-layout.row#main",
         "product-price",
-        "flex-layout.row#product",
-        "shelf.relatedProducts"
+        "flex-layout.row#product"        
       ]
   },
   "flex-layout.row#main": { 
@@ -19,13 +18,19 @@
   },
   "flex-layout.row#product": {
     "children": [
-      "sku-selector"
+      "sku-selector",
+      "shelf.relatedProducts"
     ]
   },
   "sku-selector": {
     "props": {
-      "initialSelection": "complete"
+      "showValueForVariation": "none"
     }
+  },
+  "shelf.relatedProducts": {
+    "children": [
+      "/3-colors-retro-stand-mixer/p"
+    ]
   },
   "flex-layout.col#left": {
     "children": [
