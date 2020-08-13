@@ -3,8 +3,7 @@
     "blocks": [
       "flex-layout.row#about-us",
       "tab-layout#home",
-      "tab-content#home",
-      "tab-list.item#home"
+      "tab-content#home"      
     ]
   },
   "flex-layout.row#about-us": {
@@ -57,14 +56,14 @@
   "tab-list.item#home1": {
     "props":{
       "tabId" : "majorAppliances",
-      "label": "Sobre",
+      "label": "Major Appliances",
       "defaultActiveTab" : true
     }
   },
   "tab-list.item#home2": {
     "props":{
       "tabId": "electronics",
-      "label": "Instagram"                  
+      "label": "Electronics"                  
     }
   },
 
