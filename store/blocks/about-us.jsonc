@@ -25,12 +25,14 @@
   },
   "rich-text#about-title": {
     "props": {
-      "text": "# Sobre a FlatFlat"
+      "text": 
+        "# Sobre a FlatFlat"
     }
   },
     "rich-text#about-content": {
       "props": {
-        "text": " FlatFlat é uma loja de eletro eletrônicos com muita tradição na fabricação de itens modernos e vintage. Nosso objetivo é criar eletrodomésticos que tornem as casas dos nossos clientes interessantes, independente do estilo. Com apenas 2 meses de história, já somos a loja com os produtos mais bonitos de toda a VTEX. Estamos construindo o nosso site nesse momento com o intuito de dar ao nosso cliente uma experiência memorável com a nossa marca!"
+        "text": 
+          " FlatFlat é uma loja de eletro eletrônicos com muita tradição na fabricação de itens modernos e vintage. Nosso objetivo é criar eletrodomésticos que tornem as casas dos nossos clientes interessantes, independente do estilo. Com apenas 2 meses de história, já somos a loja com os produtos mais bonitos de toda a VTEX. Estamos construindo o nosso site nesse momento com o intuito de dar ao nosso cliente uma experiência memorável com a nossa marca!"
       }
     },
   "image#about-us": {
@@ -55,14 +57,14 @@
   "tab-list.item#home1": {
     "props":{
       "tabId" : "majorAppliances",
-      "label": "Major Appliances",
+      "label": "Sobre",
       "defaultActiveTab" : true
     }
   },
   "tab-list.item#home2": {
     "props":{
       "tabId": "electronics",
-      "label": "Electronics"                  
+      "label": "Instagram"                  
     }
   },
 
@@ -76,13 +78,13 @@
   "tab-content.item#home1": {
     "children": ["rich-text#home1"],
     "props": {
-      "TabId": "electronics"      
+      "TabId": "majorAppliances"      
     }
   },
   "tab-content.item#home2": {
-    "children": ["rich-text#home2"], 
+    "children": ["iframe"], 
     "props": {
-      "TabId": "majorAppliances"      
+      "TabId": "electronics"      
     }
   },
   "rich-text#home1": {
@@ -98,5 +100,12 @@
       "textPosition": "CENTER",
       "font": "t-heading-3"
     }    
+  },
+  "iframe": {
+    "props": {
+      "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
+      "width": 800,
+      "height": 1000
+    }
   }
 }
