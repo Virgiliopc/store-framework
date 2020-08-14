@@ -6,18 +6,19 @@
       ]
     },
     "image#landingbanner":{
-        "props": {
-            "minWidth": "100%",
-            "src": "https://www.instagram.com/p/B973Qp8BacC/embed"
+        "props": {            
+            "src": "https://www.instagram.com/p/B973Qp8BacC/embed",
+            "minWidth": "100%"
         }
     },
     "search-result-layout.customQuery": {
         "props": {
             "querySchema": {
-                "orderByField": "OrderByReleaseDateDESC",
+                "queryField": "Blue Top Retro Camera",
                 "hideUnavaiLableItems": true,
-                "maxItensPerPage": 8,
-                "queryField": "Blue Top Retro Camera"
+                "maxItemsPerPage": 8,
+                "orderByField": "OrderByReleaseDateDESC"           
+                
             }
         }
     }
