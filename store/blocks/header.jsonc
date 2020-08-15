@@ -4,6 +4,7 @@
             "header-spacer",            
             "rich-text#header",
             "header-spacer",
+            "header-spacer",
             "header-row#main",
             "header-row#main-mobile"
         ]
@@ -23,7 +24,7 @@
             "fullWidth": false
         }
     },
-    
+
     "header": {
         "blocks": [
             "header-layout.desktop",
