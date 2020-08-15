@@ -16,6 +16,12 @@
 
     },
     
+    "vtex.menu@2.x:submenu#major": {
+        "children": [
+            "vtex.menu@2.x:menu#major"
+        ]        
+    },
+
     "vtex.menu@2.x:menu#major": {
         "children": [
             "menu-item#refrigerators",
@@ -25,14 +31,6 @@
         "props": {
             "orientation": "vertical",
             "width":"auto"
-        }
-    },
-    "vtex.menu@2.x:submenu#major": {
-        "children": [
-            "vtex.menu@2.x:menu#major"
-        ],
-        "props": {
-            "orientation": "vertical"
         }
     },
     
