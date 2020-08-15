@@ -1,4 +1,14 @@
-{   
+{
+    "vtex.menu@2.x:menu#categories": {
+        "children": [
+            "menu-item#major-appliances",
+            "menu-item#small-appliances",
+            "menu-item#electronics"
+        ],
+        "props":{
+            "orientation": "horizontal"
+        }
+    }, 
     "header": {
         "blocks": [
             "header-layout.desktop",
@@ -53,16 +63,17 @@
     },
 
     "header-row#main-mobile": {
-            "children": [
-              "logo",
-              "header-spacer",
-              "minicart",
-              "login"
-            ],          
-            "props": {
-              "sticky": true,
-              "inverted":true
-            }
+        "children": [
+            "drawer",
+            "logo",
+            "header-spacer",
+            "minicart",
+            "login"
+        ],          
+        "props": {
+            "sticky": true,
+            "inverted":true
+        }
     },
 
     "header-row#search": {
