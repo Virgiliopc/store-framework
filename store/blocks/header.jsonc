@@ -1,15 +1,16 @@
-{
+{   
+    "header": {
+        "blocks": [
+            "header-layout.desktop",
+            "header-layout.mobile"
+        ]
+    },
     "header-row#notification": {
         "children": [
             "header-spacer",            
             "rich-text#header",            
             "header-spacer",
-            "header-row#main",
-            "header-row#main",
-            "header",
-            "header.full",
-            "header-row#search",
-            "header-layout.mobile",
+            "header-row#main",           
             "header-row#main-mobile"
         ]
     },
@@ -28,12 +29,13 @@
             "fullWidth": false
         }
     },
-    "header": {
-        "blocks": [
-            "header-layout.desktop",
-            "header-layout.mobile"
+    "header-row#menu": {
+        "children": [
+          "header-spacer",
+          "vtex.menu@2.x:menu#categories",
+          "header-spacer"
         ]
-    },
+      },
 
     "header.full": {
         "blocks": [
@@ -44,7 +46,8 @@
     "header-layout.desktop": {
         "children": [
             "header-row#notification",
-            "header-row#main"
+            "header-row#main",
+            "header-row#menu"
         ]
     }, 
 
