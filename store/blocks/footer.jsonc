@@ -12,13 +12,15 @@
     },
     "footer-layout.mobile": {
         "children": [
-          "flex-layout.row#footer-1-mobile"
+          "flex-layout.row#footer-mobile"
         ]
       },
     "flex-layout.row#footer-1-desktop": {
         "children": [
           "flex-layout.col#footer-left-desktop",
-          "flex-layout.col#footer-right-desktop"
+          "flex-layout.col#footer-right-desktop",
+          "accepted-payment-methods",
+          "social-networks"
         ],
         "props": {
           "blockClass": "footer-row",
@@ -26,32 +28,27 @@
           "paddingBottom": 7
         }
       },
-    "flex-layout.col#footer-left-desktop": {
+      "flex-layout.row#footer-mobile": {
         "children": [
-          "accepted-payment-methods"          
-        ]
-    },
+          "flex-layout.col#footer-left-mobile",
+          "flex-layout.col#footer-right-mobile",
+          "accepted-payment-methods",
+          "social-networks"
+        ],
+        "props": {
+            "blockClass": "footer-row",
+            "paddingTop": 7,
+            "paddingBottom": 7
+        }
+      },
+    
     "accepted-payment-methods": {
         "props": {            
             "paymentMethods": [ "Mastercard", "Visa", "Diners Club"],
             "showIncolor": "true"
         }
-    },
-    "flex-layout.col#footer-left-mobile": {
-        "children": [
-          "accepted-payment-methods"          
-        ]
-    },
-    "flex-layout.col#footer-right-desktop": {
-        "children": [
-          "social-networks"          
-        ]
-    },
-    "flex-layout.col#footer-right-mobile": {
-        "children": [
-          "social-networks"          
-        ]
     },    
+    
     "social-networks": {
         "props": {
             "showIncolor": "true",
