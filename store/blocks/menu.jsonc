@@ -13,6 +13,7 @@
         "props": {
           "id": "menu-item-major-appliances"
         }       
+
     },
     "vtex.menu@2.x:submenu#major": {
         "children": [
@@ -29,8 +30,8 @@
             "menu-item#washers"            
         ],
         "props": {
-            "width":"auto",
-            "orientation": "vertical"
+            "orientation": "horizontal",
+            "width":"auto"
         }
     },
     "vtex.menu@2.x:submenu#small": {
