@@ -14,11 +14,11 @@
 
     "header-row#notification": {
         "children": [
+            "rich-text#header",
             "header-spacer",            
-            "rich-text#header",            
-            "header-spacer",
             "header-row#main",           
-            "header-row#main-mobile"
+            "header-row#main-mobile",
+            "header-row#menu"                     
         ]
     },
     "rich-text#header": {
