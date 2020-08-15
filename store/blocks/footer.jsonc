@@ -1,24 +1,24 @@
 {
     "footer": {
-      "blocks": [
-          "footer-layout.desktop",
-          "footer-layout.mobile"
+        "blocks": [
+            "footer-layout.desktop",
+            "footer-layout.mobile"
         ]
     },
     "footer-layout.desktop": {
-      "children": [
-        "flex-layout.row#footer-1-desktop"
-      ]
+        "children": [
+            "flex-layout.row#footer-1-desktop"
+        ]
     },
     "footer-layout.mobile": {
         "children": [
-          "flex-layout.row#footer-mobile"
+            "flex-layout.row#footer-mobile"
         ]
-      },
+    },
     "flex-layout.row#footer-1-desktop": {
         "children": [
           "flex-layout.col#footer-left-desktop",
-          "flex-layout.col#footer-right-desktop"          
+          "flex-layout.col#footer-right-desktop"
         ],
         "props": {
           "blockClass": "footer-row",
@@ -29,7 +29,7 @@
     "flex-layout.row#footer-mobile": {
         "children": [
           "flex-layout.col#footer-left-mobile",
-          "flex-layout.col#footer-right-mobile"          
+          "flex-layout.col#footer-right-mobile"
         ],
         "props": {
           "blockClass": "footer-row",
@@ -38,34 +38,34 @@
         }
     },
     "flex-layout.col#footer-left-desktop": {
-        "clildren": [
-            "accepted-payment-methods"
+        "children": [
+          "accepted-payment-methods"          
         ]
     },
     "accepted-payment-methods": {
-        "props": {            
-            "paymentMethods": ["Mastercard", "Visa", "Diners Club"],
-            "showIncolor": "true"
+        "props": {
+            "paymentMethods": ["mastercard", "visa", "diners club"],
+            "showInColor": "true"
         }
     },
     "flex-layout.col#footer-left-mobile": {
-        "clildren": [
-            "accepted-payment-methods"
+        "children": [
+          "accepted-payment-methods"          
         ]
     },
     "flex-layout.col#footer-right-desktop": {
-        "clildren": [
-            "social-networks"
-        ]
-    },      
-    "flex-layout.row#footer-right-mobile": {
         "children": [
-            "social-networks"          
+          "social-networks"          
         ]
-    },      
+    },
+    "flex-layout.col#footer-right-mobile": {
+        "children": [
+          "social-networks"          
+        ]
+    },
     "social-networks": {
         "props": {
-            "showIncolor": "true",
+            "showInColor": "true",
             "socialNetworks": [
                 { "url": "https://facebook.com/foo", "name": "Facebook" },
                 { "url": "https://instagram.com/foo", "name": "Instagram" },
@@ -73,5 +73,4 @@
             ]            
         }
     }
-
 }
