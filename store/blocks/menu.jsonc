@@ -11,20 +11,8 @@
     },
     "menu-item#major-appliances": {
         "props": {
-          "id": "menu-item-major-appliances",
-          "type": "custom",
-            "highlight": true,
-            "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": false,
-                "tagTitle": "Major Appliances",
-                "text": "Major Appliances"
-            }
-        },
-        "blocks": [
-            "vtex.menu@2.x:submenu#major"
-        ]
+          "id": "menu-item-major-appliances"        
+        }        
     },    
     "vtex.menu@2.x:submenu#major": {
         "children": [
@@ -38,11 +26,10 @@
         "children": [
             "menu-item#refrigerators",
             "menu-item#ovens",
-            "menu-item#washers"          
+            "menu-item#washers"
         ],
         "props": {
-            "orientation": "vertical",
-            "width":"auto"
+            "orientation": "vertical"
         }
     },
     
