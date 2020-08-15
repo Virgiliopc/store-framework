@@ -1,9 +1,16 @@
 {
     "header-row#notification": {
-      "blocks": [
-        "header-row#main-desktop",
-        "header-row#main-mobile"
-      ]
+        "children": [
+            "header-spacer",
+            "rich-text#header",
+            "header-spacer"
+        ]
+    },
+    "header.full": {
+        "blocks": [
+            "header-row#main-desktop",
+            "header-row#main-mobile"
+        ]
     },    
     "header-row#main-desktop": {
         "children": [
